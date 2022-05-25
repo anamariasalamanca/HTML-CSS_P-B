@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+/* STYLES */
+
+
+@import url('./assets/fonts/Roboto/Roboto-Black.ttf');
+
+body{
+    font-family: "Roboto", sans-serif ;
+    margin: 3vh;
+}
+header h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 5vh;
+}
+footer{
+    margin-bottom: 0px;
+}
+.h-div_menu{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    
+}
+.h-nav_menu{
+    color: black;
+}
+.h-nav_menu_list{
+    color: black;
+    padding: 10px;
+}
+.h-nav_menu_list:hover{
+    font-size: 28px;
+    color:rgb(245, 180, 40);
+}
+.h-div_search{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    align-items: center;
+    margin-right: 10px;
+}
+.h-div_input-search{
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+
+}
+.h-div_button-search{
+    margin: 10px;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.h-div_button-user{
+    background-color: white;
+    border: 1px solid white;
+    margin-right: 3%;
+    cursor: pointer;
+}
+.m-div_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.m-div_gallery-content{
+    color: black;
+    width: 20%;
+    height: 26%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.m-div_gallery-img{
+    width: 100%;
+}
+.m-div_gallery-img:hover{
+    width: 110%;
+}
+.m-div_gallery-text{
+    color: black;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.f-div_discount{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    font-size: 16px;
+}
+.f-div_discount-p{
+    font-size: 11px;
+    padding-top: 10px;
+
+}
+.f-div_line{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width:40%;
+    padding: 15px;
+
+}
+.f-div_contact{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    color:rgba(56, 56, 56 )
+    
+}
+.f-div_contact-p{
+    padding: 5px;
+    color:rgba(56, 56, 56 )
+}
+.f-div_contact-p:hover{
+    color:rgb(88, 103, 247);
+}
+.f-div_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 12px;
+    color:rgba(56, 56, 56, 0.1);
+    padding-top: 10px;
+    
+}
+.f-ul_guide{
+    color:rgba(56, 56, 56 );
+    cursor: pointer;
+}
+.f-ul_guide_p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:rgba(56, 56, 56 )
+}
+.f-ul_guide_li{
+    padding-bottom: 8px;
+}
+.f-ul_services{
+    color:rgba(56, 56, 56 );
+    cursor: pointer;
+}
+.f-ul_services_p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:rgba(56, 56, 56 )
+}
+.f-ul_services_li{
+    padding-bottom: 8px;
+}
+.f-ul_company{
+    color:rgba(56, 56, 56 );
+    cursor: pointer;
+}
+.f-ul_company_p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:rgba(56, 56, 56 )
+}
+.f-ul_company_li{
+    padding-bottom: 8px;
+}
+.f-ul_politic{
+    color:rgba(56, 56, 56 );
+    cursor: pointer;
+}
+.f-ul_politic_p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:rgba(56, 56, 56 )
+}
+.f-ul_politic_li{
+    padding-bottom: 8px;
+}
+.f-ul_social{
+    color:rgba(56, 56, 56 );
+    cursor: pointer;
+}
+.f-ul_social_p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:rgba(56, 56, 56 )
+}
+.f-ul_social_li{
+    padding-bottom: 8px;
+}
+.f-ul_pay{
+    color:rgba(56, 56, 56 );
+    cursor: pointer;
+}
+.f-ul_pay_p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:rgba(56, 56, 56 )
+}
+.f-ul_pay_li{
+    padding-bottom: 8px;
+}
